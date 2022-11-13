@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Halle Russell"/>
+<title>Careers</title>
+<link href="milestoneStyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="header">
+	<h1><img id="logo" src="bikeicon.png" alt="Bike Shop Logo"/> Hal's Bike Shop</h1>
+	</div>
+	<nav>
+		<ul id="NavBar">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="aboutUs.html">About Us</a></li>
+			<li><a href="careers.html"> Careers</a></li>
+		</ul>
+	</nav>
+	<hr>
+	<h2>Careers</h2>
+	<p>Our team is currently hiring! Submit an quick questionnaire below if you'd like to join the crew. We'll be sure to reach out to you within 24 hours!</p>
+	<form action="/IT3203formrun" method="post">
+		
+        <fieldset>
+            <legend>Name</legend>            
+			<label>First Name: <input type="text" name="firstname"></label>
+			<br>
+			<br>
+            <label>Last Name: <input type="text" name="lastname"></label>
+        </fieldset>
+		<fieldset>
+            <legend>Contact Information</legend>
+            <label>Email Address: <input type="email" name="email"></label>
+			<br>
+			<br>
+            <label>Phone Number: <input type="text" name="phone"></label>
+        </fieldset>
+		<fieldset>
+			<legend>What's your date of birth?</legend>
+			<label>MM/DD/YYYY:<input type="date"></label>
+		</fieldset>
+			 <fieldset>
+			<legend>Do you bike in your free time?</legend>
+            <label><input type="radio" name="yes" value="no"> Yes</label>            
+            <label><input type="radio" name="no" value="no"> No</label>
+		</fieldset>
+			 <fieldset>
+			<legend>Do you have retail experience?</legend>
+            <label><input type="radio" name="yes" value="no"> Yes</label>            
+            <label><input type="radio" name="no" value="no"> No</label>
+		</fieldset>
+			 <fieldset>
+			<legend>If yes, how many years of experience?</legend>
+           <label>Years: <input type="number" name="experience"></label>           
+            <label><input type="radio" name="n/a" value="n/a"> N/A</label>
+		</fieldset>
+			<br>
+		<button onclick="myFunction()">Submit</button>
+</form>
+<br>
+	<div class="footer">
+	<p>This is for class project purposes only.</p>
+	</div>
+</body>
+</html>
